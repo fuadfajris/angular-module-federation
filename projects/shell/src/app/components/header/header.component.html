@@ -1,0 +1,28 @@
+<nav>
+  <div class="logo">
+    <h1><a routerLink="/">LOGO</a></h1>
+  </div>
+  <ul class="m-0">
+    <li>
+      <a routerLink="/menu1">Menu 1</a>
+    </li>
+    <li>
+      <a routerLink="/menu2">Menu 2</a>
+    </li>
+  </ul>
+  <div class="hamburger" (click)="toggleNav()">
+    <span class="line"></span>
+    <span class="line"></span>
+    <span class="line"></span>
+  </div>
+</nav>
+<div class="menubar">
+  <ul>
+    <li>
+      <a routerLink="/menu1">Menu 1</a>
+    </li>
+    <li>
+      <a routerLink="/menu2">Menu 2</a>
+    </li>
+  </ul>
+</div>
